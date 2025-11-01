@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap');
+
+.formobile {
+    display: none;
+}
+
+:root {
+    --bs-body-color: #fff !important;
+}
+
+* {
+    font-family: "poppin", sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.ramabhadra-regular {
+    font-family: "Ramabhadra", sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.hero-section {
+    background-image: url('images/hero-banner-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #DDFDF0;
+    border-radius: 0 0 0 200px;
+    border-bottom: 20px solid #008752;
+}
+
+.hero-section h1 {
+    color: #0078AE;
+    font-size: 62px;
+    line-height: 1.3;
+}
+
+.hero-section h1 span {
+    background-color: #008752;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    color: #000;
+}
+
+.hero-section .get-started {
+    background-color: #008752;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.hero-section .learn-more {
+    background-color: #000000;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.hero-section img {
+    max-width: 900px;
+    border-radius: 15px;
+}
+
+.success-section h2 {
+    color: #0078AE;
+    font-size: 50px;
+}
+
+.success-section p {
+    color: #000;
+    font-size: 20px;
+}
+
+.success-section .image-card {
+    background-color: #76C54B;
+    padding: 10px;
+    border-radius: 12px;
+    width: 60px;
+}
+
+.success-section h4 {
+    font-size: 28px;
+}
+
+.success-section .arrow-image {
+    position: absolute;
+    background-color: #76C54B;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.driven {
+    background-image: url('images/bg-vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.driven h2 {
+    font-size: 52px;
+    font-family: "Ramabhadra", sans-serif !important;
+}
+
+.driven p {
+    font-size: 20px;
+}
+
+.driven .left-card {
+    background-color: #0484CD;
+    border-radius: 20px 0 0 0;
+}
+
+.driven .right-card {
+    background-color: #0484CD;
+    border-radius: 0 20px 0 0;
+}
+
+.driven .left-card h2,
+.driven .right-card h2 {
+    font-size: 46px;
+}
+
+.driven .left-card p,
+.driven .right-card p {
+    font-size: 20px;
+}
+
+.explore h2 {
+    color: #0078AE;
+    font-size: 46px;
+}
+
+.explore p {
+    color: #000;
+    font-size: 20px;
+}
+
+.ecard {
+    height: 290px;
+    transition: 0.5s;
+}
+
+.ecard:hover {
+    height: 400px;
+    transition: 0.5s;
+}
+
+.ecard:hover .shadow-sm {
+    background-color: #0484CD !important;
+    transition: 0.5s;
+}
+
+.ecard:hover h4,
+.ecard:hover p {
+    color: #fff !important;
+}
+
+.e-btn {
+    text-align: center;
+    display: block;
+    height: 50% !important;
+    width: 50%;
+    border-radius: 50% 50%;
+    border-bottom: 0 !important;
+    padding: 10px;
+    background-color: #78C64A !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.explore-btn {
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.explore .ecard div {
+    background-color: #DDFDF0;
+    border-bottom: 10px solid #78C64A;
+    overflow: hidden;
+    padding-bottom: 0 !important;
+}
+
+.explore .ecard img {
+    width: 100%;
+}
+
+.explore .ecard h4 {
+    color: #0484CD;
+    font-size: 22px;
+    font-family: "Ramabhadra", sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.explore .ecard p {
+    color: #000;
+}
+
+.itswork {
+    background-color: #0484CD;
+}
+
+.itswork h2 {
+    font-size: 50px;
+    font-family: "Ramabhadra", sans-serif !important;
+}
+
+.itswork h3 {
+    background-color: #8CC53D;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold !important;
+}
+
+.itswork h4 {
+    font-size: 30px;
+    font-family: "Ramabhadra", sans-serif;
+    font-weight: bold !important;
+}
+
+.itswork p {
+    font-size: 18px;
+}
+
+.itswork img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.itswork h4,
+.itswork p {
+    color: #fff;
+}
+
+.reviewsspeak h2 {
+    color: #0078AE;
+    font-size: 45px;
+    font-family: "Ramabhadra", sans-serif;
+}
+
+.reviewsspeak p {
+    color: #000;
+    font-size: 18px;
+}
+
+.reviewsspeak .t-card p,
+.reviewsspeak .t-card span {
+    color: #000;
+    font-size: 13px;
+}
+
+.t-card {
+    background: #E8FFF7;
+    border-radius: 22px;
+    padding: 32px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 8px 25px;
+    text-align: left;
+    transition: all .4s ease;
+    opacity: .3;
+    transform: scale(.75);
+}
+
+.swiper-slide-active p,
+.swiper-slide-active span {
+    color: #fff !important;
+}
+
+.swiper-slide-active {
+    background: #7dc242 !important;
+
+    transform: scale(1.55) !important;
+    opacity: 1 !important;
+    z-index: 10;
+}
+
+.swiper-slide-next,
+.swiper-slide-prev {
+    opacity: .6 !important;
+    transform: scale(.9);
+}
+
+.profile-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.stars {
+    font-size: 20px;
+    color: #ffb400;
+    font-weight: bold;
+}
+
+.swiper {
+    margin-top: 100px;
+    overflow-y: inherit !important;
+}
+
+.realestate {
+    background-image: url('images/vector2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #DDFDF0;
+    border-radius: 0 200px 0 0;
+    border-top: 20px solid #0484CD;
+}
+
+.realestate h2 {
+    color: #0078AE;
+    font-size: 52px;
+    line-height: 1.3;
+    font-family: "Ramabhadra", sans-serif !important;
+}
+
+.realestate span {
+    background-color: #008752;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.realestate p {
+    font-size: 18px;
+    color: #000;
+}
+
+.realestate .get-started {
+    background-color: #008752;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.realestate .learn-more {
+    background-color: #000;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.faqs h2 {
+    color: #0078AE;
+    font-size: 45px;
+    font-family: "Ramabhadra", sans-serif !important;
+}
+
+.faqs p {
+    color: #000;
+    font-size: 18px;
+}
+
+.accordion-item {
+    background-color: #0484CD;
+    color: #fff;
+    border: 0;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0484CD;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Default Button */
+.accordion-button {
+    background-color: #DDFDF0;
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Active/Open Button */
+.accordion-button.active-acc {
+    background-color: #0484CD !important;
+    color: #fff !important;
+}
+
+/* Body when active */
+.accordion-body.active-body {
+    background-color: #0484CD;
+    color: #fff;
+    border-left: 4px solid #0484CD;
+    border-right: 4px solid #0484CD;
+    border-bottom: 4px solid #0484CD;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("images/minus.png");
+}
+
+.accordion-button::after {
+    background-image: url("images/plus.png");
+}
+
+.footer {
+    background-color: #242424;
+    border-radius: 200px 0 0 0;
+    border-top: 20px solid #8CC53D;
+}
+
+.footer h5 {
+    color: #8CC53D;
+    font-family: "Ramabhadra", sans-serif !important;
+    font-size: 22px;
+}
+
+
+.footer-links li a {
+    color: #e0e0e0;
+    display: inline-block;
+    padding: 3px 0;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer .bi {
+    color: #8CC53D;
+}
+
+.footer .bi:hover {
+    color: #fff;
+}
+
+.footer-links li a:hover {
+    color: #fff !important;
+    padding-left: 4px;
+}
+
+.footer-icon:hover {
+    color: #8CC53D !important;
+}
+
+.b-footer {
+    background-color: #0484CD;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .formobile {
+        display: block;
+    }
+
+    .fordesktop {
+        display: none;
+    }
+
+    .nav-link,
+    .nav-item .btn {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+    }
+
+    .hero-section {
+        border-radius: 0 0 0 150px;
+    }
+
+    .hero-section h1,
+    .success-section h2,
+    .driven h2,
+    .explore h2,
+    .reviewsspeak h2,
+    .realestate h2,
+    .faqs h2,
+    .itswork h2 {
+        font-size: 40px;
+        line-height: 1.3;
+    }
+
+    .hero-section p,
+    .success-section p,
+    .driven p,
+    .explore p,
+    .reviewsspeak p,
+    .realestate p,
+    .faqs p {
+        font-size: 18px;
+    }
+
+    .hero-section .get-started,
+    .hero-section .learn-more,
+    .realestate .get-started,
+    .realestate .learn-more {
+        font-size: 18px;
+    }
+
+    .driven .left-card h2,
+    .driven .right-card h2 {
+        font-size: 28px;
+    }
+
+    .driven .left-card p,
+    .driven .right-card p {
+        font-size: 18px;
+    }
+
+    .itswork img {
+        top: 20px;
+        width: 50% !important;
+    }
+
+    .itswork h4 {
+        font-size: 22px;
+    }
+
+    .itswork p {
+        font-size: 16px;
+    }
+
+    .footer h5 {
+        font-size: 20px;
+    }
+
+    .footer-links li,
+    footer p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 0 !important;
+        border-radius: 0 0 0 80px;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+
+    .hero-section h1,
+    .success-section h2,
+    .driven h2,
+    .explore h2,
+    .reviewsspeak h2,
+    .realestate h2,
+    .faqs h2,
+    .itswork h2 {
+        font-size: 30px;
+    }
+
+    .hero-section p,
+    .success-section p,
+    .driven p,
+    .explore p,
+    .reviewsspeak p,
+    .realestate p,
+    .faqs p {
+        font-size: 16px;
+    }
+
+    .explore,
+    .success-section,
+    .driven,
+    .realestate,
+    .footer {
+        padding: 20px !important;
+    }
+
+    .itswork img {
+        display: none;
+    }
+
+    .swiper {
+        overflow: inherit;
+    }
+
+    .swiper-slide {
+        transform: scale(1) !important;
+    }
+
+    .swiper-slide-active {
+        transform: scale(1.2) !important;
+    }
+
+    .realestate {
+        border-radius: 0 150px 0 0;
+    }
+
+    .footer .container {
+        padding: 0;
+        width: 100% !important;
+    }
+
+    .footer h5 {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 426px) {
+    .ecard {
+        height: 260px;
+    }
+
+    .ecard:hover {
+        height: 360px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer div {
+        justify-content: center;
+    }
+
+    .b-footer * {
+        text-align: center;
+    }
+}
+
+/* Hover Effects */
+
+.success-card:hover div {
+    background-color: #0484CD !important;
+    transition: 0.5s;
+}
+
+.success-card:hover h4,
+.success-card:hover p {
+    color: #fff !important;
+}

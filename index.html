@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agents4Brokers</title>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Customstyles CSS -->
+    <link href="customstyles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top Header -->
+    <div class="container-fluid py-3" style="background-color: #0484CD; color: white;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 col-sm-7 col-xs-5 text-start">
+                    <p class="mb-0">Welcome to Agents4Brokers</p>
+                </div>
+                <div class="col-md-5 col-sm-4 col-xs-4 text-end">
+                    <i class="bi bi-search me-3"></i>
+                    <i class="bi bi-person"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Section For Desktop -->
+    <nav class="fordesktop navbar navbar-expand-lg bg-white shadow-sm p-3">
+        <div class="container">
+            <!-- Left Links -->
+            <ul class="navbar-nav mx-auto ">
+                <li class="nav-item"><a class="nav-link text-dark fw-semibold fs-5" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-dark fw-semibold fs-5" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link text-dark fw-semibold fs-5" href="#">Features</a></li>
+            </ul>
+
+            <!-- Center Logo -->
+            <a class="navbar-brand mx-auto d-none d-lg-block" href="#" style="position: relative;">
+                <img src="images/logo-h.png" alt="Logo"
+                    style="position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); background-color: #ffffff; padding: 10px; border-radius: 50%;z-index: 1;">
+            </a>
+
+            <!-- Right Links -->
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link text-dark fw-semibold  fs-5" href="#">Blog</a></li>
+                <li class="nav-item"><a class="nav-link text-dark fw-semibold  fs-5" href="#">Pricing</a></li>
+                <li class="nav-item">
+                    <a class="btn text-white fs-5"
+                        style="background-color: #008752; border-radius: 30px; padding: 6px 18px;" href="#">Contact
+                        Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar Section For Taplat or Mobile -->
+    <nav class="formobile navbar navbar-expand-md bg-white shadow-sm">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-h.png" alt="Logo" style="width: 120px;">
+            </a>
+
+            <!-- Toggler (for mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link text-dark fw-semibold fs-5" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-semibold fs-5" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-semibold fs-5" href="#">Features</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-semibold fs-5" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-semibold fs-5" href="#">Pricing</a></li>
+                    <li class="nav-item ms-3">
+                        <a class="btn text-white fs-5 px-3" style="background-color: #008752; border-radius: 30px;"
+                            href="#">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <div class="container-fluid position-relative overflow-hidden pt-5 w-100 hero-section">
+
+        <div class="container text-center pt-5 position-relative">
+            <!-- Heading -->
+            <h1 class="fw-bold mb-3 ramabhadra-regular">
+                <span>
+                    Connect
+                </span>
+                Learn and Grow <br>With Agent4Brokers
+            </h1>
+
+            <!-- Paragraph -->
+            <p class="mb-4">
+                The professional matching platform that brings agents, brokers, and educators together.
+            </p>
+
+            <!-- Buttons -->
+            <div class="mb-5">
+                <a href="#" class="get-started btn me-3 text-white px-4 py-2">Get Started</a>
+                <a href="#" class="learn-more btn px-4 py-2">Learn More</a>
+            </div>
+
+            <!-- Image -->
+            <img src="images/photo (2).png" alt="Dashboard Preview" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Everything You Need to Succeed Section -->
+    <div class="container-fluid py-5 bg-white success-section">
+        <div class="container text-center">
+
+            <!-- Heading -->
+            <h2 class="fw-bold mb-2 ramabhadra-regular">
+                Everything You Need to Succeed
+            </h2>
+            <p class="mb-5">
+                Powerful tools and features designed for agents, brokers, and educators
+            </p>
+
+            <!-- Cards Row -->
+            <div class="row justify-content-center g-4 text-start">
+
+                <!-- Card 1 -->
+                <div class="success-card col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm position-relative" style="background-color: #DDFDF0;">
+                        <img class="image-card" src="images/icon0.png" alt="icon">
+                        <h4 class="fw-semibold mt-3 mb-3" style="color: #0484CD;">For Agents</h4>
+                        <p style="color: #000;">
+                            Connect with top brokers, access exclusive deals, and grow your portfolio with intelligent
+                            matching.
+                        </p>
+                        <br>
+
+                        <!-- Arrow on bottom-right -->
+                        <img class="arrow-image" src="images/icons (1).png" alt="arrow">
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="success-card col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm position-relative" style="background-color: #DDFDF0;">
+                        <img class="image-card" src="images/icons (2).png" alt="icon">
+                        <h4 class="fw-semibold mt-3 mb-3" style="color: #0484CD;">For Brokers</h4>
+                        <p style="color: #000;">
+                            Find, connect, and expand your network with qualified agents and personalized solutions.
+                        </p>
+                        <br>
+
+                        <!-- Arrow on bottom-right -->
+                        <img class="arrow-image" src="images/icons (1).png" alt="arrow">
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="success-card col-md-4">
+                    <div class="p-4 h-100 rounded-4 shadow-sm position-relative" style="background-color: #DDFDF0;">
+                        <img class="image-card" src="images/icons (3).png" alt="icon">
+                        <h4 class="fw-semibold mt-3 mb-3" style="color: #0484CD;">For Educators</h4>
+                        <p style="color: #000;">
+                            Share your expertise, create learning opportunities, and help agents achieve their goals.
+                        </p>
+                        <br>
+
+                        <!-- Arrow on bottom-right -->
+                        <img class="arrow-image" src="images/icons (1).png" alt="arrow">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Driven By Innovation Powered By People -->
+    <div class="container-fluid py-5 bg-white driven">
+        <div class="container pt-5 px-4 text-center" style="
+    background-color: #76C54B; 
+    border-radius: 30px;
+  ">
+
+            <!-- Heading -->
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="fw-bold mb-3 text-white">
+                        Driven By Innovation.<br> Powered By People.
+                    </h2>
+                    <p class="text-white mb-5">
+                        At Agents4Brokers, we believe in the power of meaningful connections.
+                        Our mission is to bridge the gap between real estate agents, brokers,
+                        and educators through smart technology and genuine collaboration.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cards Row -->
+            <div class="row align-items-end justify-content-center g-4 h-100">
+
+                <!-- Left Card -->
+                <div class="col-md-3">
+                    <div class="p-4 d-flex flex-column justify-content-center left-card">
+                        <div>
+                            <h2 class="fw-semibold mb-1 text-white">100+</h2>
+                            <p class="text-white">Active Users</p>
+                        </div>
+                        <div class="mt-4">
+                            <h2 class="fw-semibold mb-1 text-white">50+</h2>
+                            <p class="text-white">Partner Agents</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle Image -->
+                <div class="col-md-6">
+                    <div class="overflow-hidden h-100">
+                        <img src="images/photo (1).png" class="img-fluid w-100 h-100" style="object-fit: cover;"
+                            alt="Agents">
+                    </div>
+                </div>
+
+                <!-- Right Card -->
+                <div class="col-md-3">
+                    <div class="p-4 h-100 d-flex flex-column justify-content-center right-card">
+                        <div>
+                            <h2 class="fw-semibold mb-1 text-white">200+</h2>
+                            <p class="text-white">Deals Closed</p>
+                        </div>
+                        <div class="mt-4">
+                            <h2 class="fw-semibold mb-1 text-white">300+</h2>
+                            <p class="text-white">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Explore A Plan That Fits With Your Role -->
+    <div class="container-fluid py-5 bg-white explore">
+        <div class="container text-center">
+
+            <!-- Heading -->
+            <h2 class="fw-bold mb-2">
+                Explore A Plan That Fits With Your Role
+            </h2>
+            <p class="mb-5">
+                Choose the plan that fits your needs. All plans include a 14-day free trial.
+            </p>
+
+            <!-- Cards Row -->
+            <div class="row justify-content-center g-4 text-start">
+
+                <!-- Card 1 -->
+                <div class="col-md-4  col-sm-10 ecard">
+                    <div class="p-4 h-100 rounded-4 shadow-sm position-relative">
+                        <img src="images/image (1).jpg" alt="icon">
+                        <h4 class="fw-semibold mt-3 mb-3">Educator/Coach</h4>
+                        <p>
+                            Get more engagement for courses.
+                        </p>
+                        <div class="e-btn">
+                            <button class="explore-btn"><i class="bi bi-arrow-up-right"></i><br>Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4  col-sm-10   ecard">
+                    <div class="p-4 h-100 rounded-4 shadow-sm position-relative">
+                        <img src="images/image (2).jpg" alt="icon">
+                        <h4 class="fw-semibold mt-3 mb-3">Educator/Coach</h4>
+                        <p>
+                            Get more engagement for courses.
+                        </p>
+                        <div class="e-btn">
+                            <button class="explore-btn"><i class="bi bi-arrow-up-right"></i><br>Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 col-sm-10 ecard">
+                    <div class="p-4 h-100 rounded-4 shadow-sm position-relative">
+                        <img src="images/image (3).jpg" alt="icon">
+                        <h4 class="fw-semibold mt-3 mb-3">Educator/Coach</h4>
+                        <p>
+                            Get more engagement for courses.
+                        </p>
+                        <div class="e-btn">
+                            <button class="explore-btn"><i class="bi bi-arrow-up-right"></i><br>Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- How Its Work -->
+    <div class="container-fluid py-5 itswork">
+        <div class="container text-center">
+
+            <!-- Heading -->
+            <h2 class="fw-bold mb-2 text-white">
+                How Its Work
+            </h2>
+
+            <!-- Cards Row -->
+            <div class="row justify-content-center g-4 text-start">
+
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="p-4 h-100 position-relative">
+                        <h3>
+                            01</h3>
+                        <img src="images/vectors.png">
+                        <h4 class="fw-semibold mt-3 mb-3">Connect &<br> Collaborate</h4>
+                        <p>
+                            Agents, Brokers, and Educators subscribe to our platform to join a vetted professional
+                            network. Agents can easily find and connect with experienced Brokers, while Educators gain a
+                            dedicated channel to reach their target audience, all within a modern, professional, and
+                            secure environment.
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="p-4 h-100 position-relative">
+                        <h3>
+                            02</h3>
+                        <img src="images/vectors.png" style="transform: scaleY(-1)">
+                        <h4 class="fw-semibold mt-3 mb-3">Connect &<br> Collaborate</h4>
+                        <p>
+                            Agents, Brokers, and Educators subscribe to our platform to join a vetted professional
+                            network. Agents can easily find and connect with experienced Brokers, while Educators gain a
+                            dedicated channel to reach their target audience, all within a modern, professional, and
+                            secure environment.
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="p-4 h-100">
+                        <h3>
+                            03</h3>
+                        <h4 class="fw-semibold mt-3 mb-3">Connect &<br> Collaborate</h4>
+                        <p>
+                            Agents, Brokers, and Educators subscribe to our platform to join a vetted professional
+                            network. Agents can easily find and connect with experienced Brokers, while Educators gain a
+                            dedicated channel to reach their target audience, all within a modern, professional, and
+                            secure environment.
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Reviews That Speak Volumes -->
+    <section class="py-5 bg-white reviewsspeak m-5">
+        <div class="container text-center mb-4">
+            <!-- Heading -->
+            <h2 class="fw-bold mb-2">
+                Reviews That Speak Volumes
+            </h2>
+            <p class="mb-5">
+                See what our community has to say about their success with Agent4Brokers
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="swiper testimonialSwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Card 1 -->
+                    <div class="swiper-slide t-card">
+                        <div class="stars">★★★★★</div>
+                        <p>“Agent4Brokers transformed my business. I found the perfect broker partner within weeks and
+                            closed 3x more deals this quarter.”</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/user1.png" class="profile-img">
+                            <span class="ms-2 fw-bold">Mark James</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="swiper-slide t-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"The matching is incredible — matched me with top-tier agents that aligned with my goals."
+                        </p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/user2.png" class="profile-img">
+                            <span class="ms-2 fw-bold">Emily Carter</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="swiper-slide t-card">
+                        <div class="stars">★★★★★</div>
+                        <p>"Able to reach thousands of professionals with my courses effortlessly."</p>
+                        <div class="d-flex align-items-center mt-3">
+                            <img src="images/user3.png" class="profile-img">
+                            <span class="ms-2 fw-bold">Mike Hardik</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ready to Grow Your Real Estate Network Smarter? -->
+    <div class="container-fluid position-relative overflow-hidden pt-5 w-100 realestate">
+
+        <div class="container text-center pt-5 position-relative">
+            <!-- Heading -->
+            <h2 class="fw-bold mb-3">
+                Ready to <span>Grow</span>
+                Your Real<br> Estate Network Smarter?
+            </h2>
+
+            <!-- Paragraph -->
+            <p class="mb-4">
+                The professional matching platform that brings agents, brokers, and educators together.
+            </p>
+
+            <!-- Buttons -->
+            <div class="mb-5">
+                <a href="#" class="btn me-3 text-white px-4 py-2 get-started">Get Started</a>
+                <a href="#" class="btn px-4 py-2 learn-more">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Frequently Asked Questions -->
+    <section class="py-5 bg-white faqs">
+        <div class="container text-center mb-4">
+            <!-- Heading -->
+            <h2 class="fw-bold mb-2">
+                Frequently Asked Questions
+            </h2>
+            <p class="mb-5">
+                Everything you need to know about Agent4Brokers
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="accordion col-md-8" id="accordionExample" style="margin: auto;">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How does the matching algorithm work?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Our AI-powered algorithm matches you with professionals who align with your goals and
+                            expertise. It analyzes factors like experience, location, and business needs. This ensures
+                            every connection is relevant and growth-focused.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What&apos;s include in the free trial?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Our AI-powered algorithm matches you with professionals who align with your goals and
+                            expertise. It analyzes factors like experience, location, and business needs. This ensures
+                            every connection is relevant and growth-focused.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What&apos;s include in the free trial?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Our AI-powered algorithm matches you with professionals who align with your goals and
+                            expertise. It analyzes factors like experience, location, and business needs. This ensures
+                            every connection is relevant and growth-focused.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="container-fluid position-relative overflow-hidden pt-5 w-100 footer">
+        <div class="container py-5 text-white">
+            <div class="row gy-4">
+
+                <!-- Logo + About -->
+                <div class="col-md-4">
+                    <img src="images/logo-f.jpg" alt="logo-footer" class="img-fluid mb-3" style="max-width:180px;">
+                    <p>Connecting professionals and empowering growth in the real estate industry.</p>
+
+                    <h5 class="mt-4">Follow Us</h5>
+                    <div class="d-flex gap-3 fs-4">
+                        <a href="#" class="text-white footer-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white footer-icon"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white footer-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white footer-icon"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2 col-sm-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Resources -->
+                <div class="col-md-2 col-sm-3">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">API Docs</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="col-md-2 col-sm-3">
+                    <h5>Legal</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-md-2 col-sm-3">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><i class="bi bi-telephone"></i> +444 557 33 333</li>
+                        <li><i class="bi bi-envelope"></i> agent4brokers@gmail.com</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- bottom -->
+    <div class="container-fluid py-3 b-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-8 text-start">
+                    <p class="mb-0">Agents4Brokers © 2025. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 col-sm-4 text-end">
+                    <p class="mb-0">Terms & Conditions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
